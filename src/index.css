@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-div:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  height: 2px;
+  bottom: -4px;
+margin: 0px auto;
+text-align: center;
+ 
+  
+  background: #ccc;
+  transform: scaleX(0);
+}
+
+.footer-div:hover:after {
+    transform: scaleX(1);
+}
