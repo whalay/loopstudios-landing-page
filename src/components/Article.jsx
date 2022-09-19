@@ -19,7 +19,7 @@ const Article = () => {
                                     <img src={data.wImg} alt="" className='hidden md:block' />
                                     <img src={data.mImg} alt="" className='md:hidden' />
                                 </div>
-                                <span className='uppercase absolute bottom-5 left-7 text-2xl'> {data.title} </span>
+                                <span className='uppercase absolute bottom-5 left-7 text-2xl w-14'> {data.title} </span>
                             </div>
                         )
                     })}
