@@ -5,7 +5,11 @@ module.exports = {
       backgroundImage : {
         'hero-desktop' : "url('assets/images/desktop/image-hero.jpg')",
         'hero-mobile' : "url('assets/images/mobile/image-hero.jpg')",
-      
+      },
+      fontFamily: {
+        'sans': ['ui-sans-serif', 'system-ui', ...],
+        'Alata': ['Alata', 'sans-serif'],
+        'josefins': ['Josefin Sans', 'sans-serif']
       }
     },
   },

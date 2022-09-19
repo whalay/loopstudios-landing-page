@@ -9,7 +9,7 @@ const Section = () => {
             <img src={interactive1} alt="" className='md:hidden'/>
 
             <div className=' block md:relative  bg-white text-center h-[19rem] w- p-2 top-44 right-36   md:pl-16 md:pt-10'>
-                <h2 className=' text-2xl md:text-5xl text-center py-3 uppercase '>  The leader in interactive VR</h2>
+                <h2 className=' text-2xl md:text-5xl text-center py-3 uppercase '>The leader in interactive VR</h2>
                 <p className=''>Founded in 2011, Loopstudios has been producing world-class virtual reality
                     projects for some of the best companies around the globe. Our award-winning
                     creations have transformed businesses through digital experiences that bind
