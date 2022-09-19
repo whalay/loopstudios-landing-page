@@ -11,11 +11,11 @@ const Article = () => {
                     <h1 className='uppercase text-4xl text-center block'>Our creations</h1>
                     <p className='hidden md:inline-block uppercase border border-black px-8 py-2 hover:cursor-pointer hover:bg-black hover:text-white'> See all</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-4 place-content-between gap-0 gap-y-7 container'>
+                <div className='grid grid-cols-1 md:grid-cols-4 place-content-between gap-7 gap-y-7 container'>
                     {ArticleData.map((data) => {
                         return (
                             <div className='text-white relative cursor-pointer  hover:text-black '>
-                                <div className=" bg-no-repeat hover:opacity-20 ">
+                                <div className="hover:opacity-20 ">
                                     <img src={data.wImg} alt="" className='hidden md:block' />
                                     <img src={data.mImg} alt="" className='md:hidden' />
                                 </div>
