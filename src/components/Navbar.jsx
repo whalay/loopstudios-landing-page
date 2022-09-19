@@ -11,7 +11,7 @@ const Navbar = () => {
     setNav((nav) => !nav);
   }
   return (
-    <div className={nav ? "bg-black fixed w-full h-[80px] z-50" : 'relative bg-hero-mobile md:bg-hero-desktop bg-no-repeat h-full py-5'}>
+    <div className={nav ? "bg-black fixed w-full h-[80px] z-50" : 'relative bg-hero-mobile md:bg-hero-desktop content-div  h-full py-5'}>
       <div className="flex justify-between md:mx-24 px-5 py-10 text-white">
         <img src={logo} alt="" />
         <ul className="md:flex gap-10 hidden relative">
