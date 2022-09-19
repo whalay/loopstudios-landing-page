@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../assets/images/logo.svg';
-import facebook from '../assets/images/icon-facebook.svg';
 import instagram from '../assets/images/icon-instagram.svg';
 import twitter from '../assets/images/icon-twitter.svg';
 import pinterest from '../assets/images/icon-pinterest.svg';
+import facebook from '../assets/images/icon-facebook.svg';
 
 const Footer = () => {
     return (

@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import logo from '../assets/images/logo.svg';
 import hamburger from '../assets/images/icon-hamburger.svg';
 import close from '../assets/images/icon-close.svg';
