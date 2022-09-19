@@ -7,7 +7,6 @@ module.exports = {
         'hero-mobile' : "url('assets/images/mobile/image-hero.jpg')",
       },
       fontFamily: {
-        'sans': ['ui-sans-serif', 'system-ui', ...],
         'Alata': ['Alata', 'sans-serif'],
         'josefins': ['Josefin Sans', 'sans-serif']
       }

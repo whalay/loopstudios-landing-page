@@ -7,7 +7,7 @@ import facebook from '../assets/images/icon-facebook.svg';
 
 const Footer = () => {
     return (
-        <div className='bg-black text-white p-10 md:px-24 md:flex justify-between text-center'>
+        <div className='bg-black text-white font-Alata p-10 md:px-24 md:flex justify-between text-center'>
             <div className='space-y-5  '>
                 <img src={logo} alt="" className='mx-auto md:m-0' />
                 <ul className="md:flex md:gap-10 py-5 sm:py-0  block relative   ">
