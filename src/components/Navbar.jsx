@@ -39,8 +39,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className='text-white border  md:w-[40rem] w-auto md:mx-28 my-20 m-5 md:p-0'>
-        <h1 className='md:text-7xl text-5xl text-left uppercase p-10'>Immersive experiences that deliver</h1>
+      <div className='text-white border  md:w-[40rem] w-auto md:mx-28 my-20 mx-auto '>
+        <h1 className='md:text-7xl text-4xl text-left uppercase p-10'>Immersive experiences that deliver</h1>
       </div>
 
       <ul className={!nav ? " hidden" : "  p-5 absolute bg-black h-screen w-full top-20 z-50 pt-28 space-y-7 uppercase text-2xl text-white"}>
